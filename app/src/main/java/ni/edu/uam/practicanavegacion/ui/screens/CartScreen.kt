@@ -45,7 +45,7 @@ fun CartScreen(navController: NavController, cartViewModel: CartViewModel) {
                             Image(painterResource(producto.imagen), null, Modifier.size(60.dp).clip(CircleShape))
                             Column(Modifier.padding(start = 12.dp).weight(1f)) {
                                 Text(producto.nombre, fontWeight = FontWeight.Bold)
-                                Text("Qty: ${producto.cantidad}", fontSize = 12.sp)
+                                Text("Quantity: ${producto.cantidad}", fontSize = 12.sp)
                             }
                             Text("C$ ${producto.precio}", fontWeight = FontWeight.Bold, color = ColorRojoPrincipal)
                         }

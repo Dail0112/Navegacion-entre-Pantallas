@@ -59,6 +59,12 @@ dependencies {
     implementation(libs.androidx.activity.compose.v182)
     implementation(libs.androidx.core.ktx.v1120)
     implementation(libs.androidx.compose.material.icons.extended)
+    implementation(libs.material3)
+
+    implementation(libs.androidx.navigation.compose.v277)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.compose.material3.material3)
+    implementation(libs.androidx.material.icons.extended)
     debugImplementation(libs.androidx.ui.tooling)
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
